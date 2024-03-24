@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* -------------------------------------------- */
+.cardContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 30%); /* Display 3 columns in each row */
+  gap: 50px; /* Gap between cards*/
+  margin: auto;
+}
+.card{
+  margin: 20px;
+  background-color: rgb(250, 62, 49);
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+
+}
